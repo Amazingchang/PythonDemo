@@ -16,3 +16,7 @@ print a[1]
 print a[1:5]
 print '(' in a
 print a * 2
+
+print a[:-1]
+for item in a:
+    print item

@@ -24,3 +24,14 @@ classmates[-1] = 'Chang'
 for item in classmates:
     print item
 
+L = ['Adam', 'Lisa', 'Bart', 'Paul']
+print L[-2:]
+print L[:-2]
+
+for index, name in enumerate(L):
+    print index,name
+for index in enumerate(L):
+    print index
+
+for index in enumerate(L):
+    print index[1]
